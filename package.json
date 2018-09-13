@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/rudenate3/Tic-Tac-Toe-JS#readme",
   "devDependencies": {
+    "bootstrap": "^4.1.3",
     "css-loader": "^1.0.0",
     "node-sass": "^4.9.3",
     "raw-loader": "^0.5.1",

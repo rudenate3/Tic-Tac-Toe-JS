@@ -5,11 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Template</title>
+  <title>Tic Tac Toe JS</title>
 </head>
 
 <body>
-  <div id="card"></div>
+  <div class="container text-center">
+    <div class="card">
+      <div class="card-header">
+        <div class="h3">Tic Tac Toe</div>
+      </div>
+      <div class="card-body">
+        <div id="messages"></div>
+        <div id="game-board-container">
+          Click New Game to Start
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="row p-2">
+          <div class="col-md-4">
+            X Wins - <span class="x-wins">0</span>
+          </div>
+          <div class="col-md-4">
+            Ties - <span class="ties">0</span>
+          </div>
+          <div class="col-md-4">
+            O Wins - <span class="o-wins">0</span>
+          </div>
+        </div>
+        <button id="new-game-button" class="btn btn-success m-3">New Game</button>
+      </div>
+    </div>
   </div>
   <script src="./dist/main.js"></script>
 </body>
